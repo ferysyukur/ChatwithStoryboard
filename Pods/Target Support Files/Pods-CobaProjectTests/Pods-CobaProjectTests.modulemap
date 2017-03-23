@@ -1,0 +1,6 @@
+framework module Pods_CobaProjectTests {
+  umbrella header "Pods-CobaProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

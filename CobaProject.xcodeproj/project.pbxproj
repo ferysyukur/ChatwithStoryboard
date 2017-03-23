@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5047B360101AB8D28EDCF6 /* Pods_CobaProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C754CE6B97170A2A1FE6BD /* Pods_CobaProject.framework */; };
+		5137FE41D70F982D157E6C03 /* Pods_CobaProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851D479A1609C27F4EC280A3 /* Pods_CobaProjectTests.framework */; };
+		BF4F942B1E839536005861FA /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F942A1E839536005861FA /* SignInController.swift */; };
+		BF4F942D1E839E0D005861FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF4F942C1E839E0D005861FA /* GoogleService-Info.plist */; };
+		BF85A3241E7FA42600339F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85A3231E7FA42600339F5E /* AppDelegate.swift */; };
+		BF85A3261E7FA42600339F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85A3251E7FA42600339F5E /* ViewController.swift */; };
+		BF85A3291E7FA42600339F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85A3271E7FA42600339F5E /* Main.storyboard */; };
+		BF85A32B1E7FA42600339F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85A32A1E7FA42600339F5E /* Assets.xcassets */; };
+		BF85A32E1E7FA42600339F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85A32C1E7FA42600339F5E /* LaunchScreen.storyboard */; };
+		BF85A3391E7FA42700339F5E /* CobaProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85A3381E7FA42700339F5E /* CobaProjectTests.swift */; };
+		BF85A3441E7FA42700339F5E /* CobaProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85A3431E7FA42700339F5E /* CobaProjectUITests.swift */; };
+		BF85A3561E7FAE5500339F5E /* TabOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85A3551E7FAE5500339F5E /* TabOneController.swift */; };
+		BF85A3581E7FAE6600339F5E /* TabTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85A3571E7FAE6600339F5E /* TabTwoController.swift */; };
+		BF85A35A1E7FAE7C00339F5E /* TabThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85A3591E7FAE7C00339F5E /* TabThreeController.swift */; };
+		CE97E0853CD9B8E6B8337249 /* Pods_CobaProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4BA5E119E30A6D97AA21B2 /* Pods_CobaProjectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF85A3351E7FA42700339F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF85A3181E7FA42600339F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF85A31F1E7FA42600339F5E;
+			remoteInfo = CobaProject;
+		};
+		BF85A3401E7FA42700339F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF85A3181E7FA42600339F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF85A31F1E7FA42600339F5E;
+			remoteInfo = CobaProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA238BB3B5BA8722E46F7B2 /* Pods-CobaProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CobaProjectTests/Pods-CobaProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		233287BBCA421811E2480320 /* Pods-CobaProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CobaProject/Pods-CobaProject.debug.xcconfig"; sourceTree = "<group>"; };
+		31A6E2D13A6B4B0F8D892771 /* Pods-CobaProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CobaProjectUITests/Pods-CobaProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3CCD2BC2C3F19D9AE504EC63 /* Pods-CobaProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CobaProjectUITests/Pods-CobaProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E5B30FE5DF10E6C27114B0A /* Pods-CobaProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CobaProject/Pods-CobaProject.release.xcconfig"; sourceTree = "<group>"; };
+		5E4BA5E119E30A6D97AA21B2 /* Pods_CobaProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobaProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C754CE6B97170A2A1FE6BD /* Pods_CobaProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobaProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851D479A1609C27F4EC280A3 /* Pods_CobaProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobaProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD760EB2AA6FB949327DF04 /* Pods-CobaProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CobaProjectTests/Pods-CobaProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF4F942A1E839536005861FA /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		BF4F942C1E839E0D005861FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF85A3201E7FA42600339F5E /* CobaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85A3231E7FA42600339F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF85A3251E7FA42600339F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		BF85A3281E7FA42600339F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF85A32A1E7FA42600339F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF85A32D1E7FA42600339F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF85A32F1E7FA42600339F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF85A3341E7FA42700339F5E /* CobaProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobaProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85A3381E7FA42700339F5E /* CobaProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaProjectTests.swift; sourceTree = "<group>"; };
+		BF85A33A1E7FA42700339F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF85A33F1E7FA42700339F5E /* CobaProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobaProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85A3431E7FA42700339F5E /* CobaProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaProjectUITests.swift; sourceTree = "<group>"; };
+		BF85A3451E7FA42700339F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF85A3551E7FAE5500339F5E /* TabOneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabOneController.swift; path = ../TabOneController.swift; sourceTree = "<group>"; };
+		BF85A3571E7FAE6600339F5E /* TabTwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabTwoController.swift; path = ../TabTwoController.swift; sourceTree = "<group>"; };
+		BF85A3591E7FAE7C00339F5E /* TabThreeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabThreeController.swift; path = ../TabThreeController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF85A31D1E7FA42600339F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5047B360101AB8D28EDCF6 /* Pods_CobaProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85A3311E7FA42700339F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5137FE41D70F982D157E6C03 /* Pods_CobaProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85A33C1E7FA42700339F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE97E0853CD9B8E6B8337249 /* Pods_CobaProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94F8551669C74FB29422D591 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				233287BBCA421811E2480320 /* Pods-CobaProject.debug.xcconfig */,
+				3E5B30FE5DF10E6C27114B0A /* Pods-CobaProject.release.xcconfig */,
+				ACD760EB2AA6FB949327DF04 /* Pods-CobaProjectTests.debug.xcconfig */,
+				0BA238BB3B5BA8722E46F7B2 /* Pods-CobaProjectTests.release.xcconfig */,
+				3CCD2BC2C3F19D9AE504EC63 /* Pods-CobaProjectUITests.debug.xcconfig */,
+				31A6E2D13A6B4B0F8D892771 /* Pods-CobaProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF85A3171E7FA42600339F5E = {
+			isa = PBXGroup;
+			children = (
+				BF85A3221E7FA42600339F5E /* CobaProject */,
+				BF85A3371E7FA42700339F5E /* CobaProjectTests */,
+				BF85A3421E7FA42700339F5E /* CobaProjectUITests */,
+				BF85A3211E7FA42600339F5E /* Products */,
+				94F8551669C74FB29422D591 /* Pods */,
+				C9BA8FB1DA80E29170B6DF9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF85A3211E7FA42600339F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF85A3201E7FA42600339F5E /* CobaProject.app */,
+				BF85A3341E7FA42700339F5E /* CobaProjectTests.xctest */,
+				BF85A33F1E7FA42700339F5E /* CobaProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF85A3221E7FA42600339F5E /* CobaProject */ = {
+			isa = PBXGroup;
+			children = (
+				BF4F942C1E839E0D005861FA /* GoogleService-Info.plist */,
+				BF87BB1D1E7FB35E00AF2E6D /* Model */,
+				BF87BB1E1E7FB35E00AF2E6D /* Controller */,
+				BF87BB1F1E7FB35E00AF2E6D /* View */,
+				BF85A3231E7FA42600339F5E /* AppDelegate.swift */,
+				BF85A3271E7FA42600339F5E /* Main.storyboard */,
+				BF85A32A1E7FA42600339F5E /* Assets.xcassets */,
+				BF85A32C1E7FA42600339F5E /* LaunchScreen.storyboard */,
+				BF85A32F1E7FA42600339F5E /* Info.plist */,
+			);
+			path = CobaProject;
+			sourceTree = "<group>";
+		};
+		BF85A3371E7FA42700339F5E /* CobaProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF85A3381E7FA42700339F5E /* CobaProjectTests.swift */,
+				BF85A33A1E7FA42700339F5E /* Info.plist */,
+			);
+			path = CobaProjectTests;
+			sourceTree = "<group>";
+		};
+		BF85A3421E7FA42700339F5E /* CobaProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF85A3431E7FA42700339F5E /* CobaProjectUITests.swift */,
+				BF85A3451E7FA42700339F5E /* Info.plist */,
+			);
+			path = CobaProjectUITests;
+			sourceTree = "<group>";
+		};
+		BF87BB1D1E7FB35E00AF2E6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF87BB1E1E7FB35E00AF2E6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF85A3251E7FA42600339F5E /* ViewController.swift */,
+				BF85A3551E7FAE5500339F5E /* TabOneController.swift */,
+				BF85A3571E7FAE6600339F5E /* TabTwoController.swift */,
+				BF85A3591E7FAE7C00339F5E /* TabThreeController.swift */,
+				BF4F942A1E839536005861FA /* SignInController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF87BB1F1E7FB35E00AF2E6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9BA8FB1DA80E29170B6DF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C754CE6B97170A2A1FE6BD /* Pods_CobaProject.framework */,
+				851D479A1609C27F4EC280A3 /* Pods_CobaProjectTests.framework */,
+				5E4BA5E119E30A6D97AA21B2 /* Pods_CobaProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF85A31F1E7FA42600339F5E /* CobaProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85A3481E7FA42700339F5E /* Build configuration list for PBXNativeTarget "CobaProject" */;
+			buildPhases = (
+				3FF9666CDFD0724476128CCF /* [CP] Check Pods Manifest.lock */,
+				BF85A31C1E7FA42600339F5E /* Sources */,
+				BF85A31D1E7FA42600339F5E /* Frameworks */,
+				BF85A31E1E7FA42600339F5E /* Resources */,
+				8069D9F7B66684BB35540C8F /* [CP] Embed Pods Frameworks */,
+				A8006C1388B34F7DEFBA5841 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CobaProject;
+			productName = CobaProject;
+			productReference = BF85A3201E7FA42600339F5E /* CobaProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF85A3331E7FA42700339F5E /* CobaProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85A34B1E7FA42700339F5E /* Build configuration list for PBXNativeTarget "CobaProjectTests" */;
+			buildPhases = (
+				73602E61E8F3C024927AC277 /* [CP] Check Pods Manifest.lock */,
+				BF85A3301E7FA42700339F5E /* Sources */,
+				BF85A3311E7FA42700339F5E /* Frameworks */,
+				BF85A3321E7FA42700339F5E /* Resources */,
+				D2B3C040A8415395681539E0 /* [CP] Embed Pods Frameworks */,
+				D34391F776B4105567C45C43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF85A3361E7FA42700339F5E /* PBXTargetDependency */,
+			);
+			name = CobaProjectTests;
+			productName = CobaProjectTests;
+			productReference = BF85A3341E7FA42700339F5E /* CobaProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF85A33E1E7FA42700339F5E /* CobaProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85A34E1E7FA42700339F5E /* Build configuration list for PBXNativeTarget "CobaProjectUITests" */;
+			buildPhases = (
+				95986C26044B955638A0C8E1 /* [CP] Check Pods Manifest.lock */,
+				BF85A33B1E7FA42700339F5E /* Sources */,
+				BF85A33C1E7FA42700339F5E /* Frameworks */,
+				BF85A33D1E7FA42700339F5E /* Resources */,
+				72B76C3E125F996CE619E2BF /* [CP] Embed Pods Frameworks */,
+				9752D9375B30AD9D159585D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF85A3411E7FA42700339F5E /* PBXTargetDependency */,
+			);
+			name = CobaProjectUITests;
+			productName = CobaProjectUITests;
+			productReference = BF85A33F1E7FA42700339F5E /* CobaProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF85A3181E7FA42600339F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Fery Syukur";
+				TargetAttributes = {
+					BF85A31F1E7FA42600339F5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9TYPM424C7;
+						ProvisioningStyle = Automatic;
+					};
+					BF85A3331E7FA42700339F5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9TYPM424C7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF85A31F1E7FA42600339F5E;
+					};
+					BF85A33E1E7FA42700339F5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9TYPM424C7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF85A31F1E7FA42600339F5E;
+					};
+				};
+			};
+			buildConfigurationList = BF85A31B1E7FA42600339F5E /* Build configuration list for PBXProject "CobaProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF85A3171E7FA42600339F5E;
+			productRefGroup = BF85A3211E7FA42600339F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF85A31F1E7FA42600339F5E /* CobaProject */,
+				BF85A3331E7FA42700339F5E /* CobaProjectTests */,
+				BF85A33E1E7FA42700339F5E /* CobaProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF85A31E1E7FA42600339F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85A32E1E7FA42600339F5E /* LaunchScreen.storyboard in Resources */,
+				BF4F942D1E839E0D005861FA /* GoogleService-Info.plist in Resources */,
+				BF85A32B1E7FA42600339F5E /* Assets.xcassets in Resources */,
+				BF85A3291E7FA42600339F5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85A3321E7FA42700339F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85A33D1E7FA42700339F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FF9666CDFD0724476128CCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72B76C3E125F996CE619E2BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CobaProjectUITests/Pods-CobaProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73602E61E8F3C024927AC277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8069D9F7B66684BB35540C8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CobaProject/Pods-CobaProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95986C26044B955638A0C8E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9752D9375B30AD9D159585D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CobaProjectUITests/Pods-CobaProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8006C1388B34F7DEFBA5841 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CobaProject/Pods-CobaProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B3C040A8415395681539E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CobaProjectTests/Pods-CobaProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34391F776B4105567C45C43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CobaProjectTests/Pods-CobaProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF85A31C1E7FA42600339F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85A3261E7FA42600339F5E /* ViewController.swift in Sources */,
+				BF85A3241E7FA42600339F5E /* AppDelegate.swift in Sources */,
+				BF85A3581E7FAE6600339F5E /* TabTwoController.swift in Sources */,
+				BF4F942B1E839536005861FA /* SignInController.swift in Sources */,
+				BF85A35A1E7FAE7C00339F5E /* TabThreeController.swift in Sources */,
+				BF85A3561E7FAE5500339F5E /* TabOneController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85A3301E7FA42700339F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85A3391E7FA42700339F5E /* CobaProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85A33B1E7FA42700339F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85A3441E7FA42700339F5E /* CobaProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF85A3361E7FA42700339F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF85A31F1E7FA42600339F5E /* CobaProject */;
+			targetProxy = BF85A3351E7FA42700339F5E /* PBXContainerItemProxy */;
+		};
+		BF85A3411E7FA42700339F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF85A31F1E7FA42600339F5E /* CobaProject */;
+			targetProxy = BF85A3401E7FA42700339F5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF85A3271E7FA42600339F5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF85A3281E7FA42600339F5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF85A32C1E7FA42600339F5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF85A32D1E7FA42600339F5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF85A3461E7FA42700339F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF85A3471E7FA42700339F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF85A3491E7FA42700339F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233287BBCA421811E2480320 /* Pods-CobaProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9TYPM424C7;
+				INFOPLIST_FILE = CobaProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.CobaProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF85A34A1E7FA42700339F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5B30FE5DF10E6C27114B0A /* Pods-CobaProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9TYPM424C7;
+				INFOPLIST_FILE = CobaProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.CobaProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BF85A34C1E7FA42700339F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD760EB2AA6FB949327DF04 /* Pods-CobaProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9TYPM424C7;
+				INFOPLIST_FILE = CobaProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.CobaProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CobaProject.app/CobaProject";
+			};
+			name = Debug;
+		};
+		BF85A34D1E7FA42700339F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA238BB3B5BA8722E46F7B2 /* Pods-CobaProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9TYPM424C7;
+				INFOPLIST_FILE = CobaProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.CobaProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CobaProject.app/CobaProject";
+			};
+			name = Release;
+		};
+		BF85A34F1E7FA42700339F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCD2BC2C3F19D9AE504EC63 /* Pods-CobaProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9TYPM424C7;
+				INFOPLIST_FILE = CobaProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.CobaProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CobaProject;
+			};
+			name = Debug;
+		};
+		BF85A3501E7FA42700339F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A6E2D13A6B4B0F8D892771 /* Pods-CobaProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9TYPM424C7;
+				INFOPLIST_FILE = CobaProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.CobaProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CobaProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF85A31B1E7FA42600339F5E /* Build configuration list for PBXProject "CobaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85A3461E7FA42700339F5E /* Debug */,
+				BF85A3471E7FA42700339F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85A3481E7FA42700339F5E /* Build configuration list for PBXNativeTarget "CobaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85A3491E7FA42700339F5E /* Debug */,
+				BF85A34A1E7FA42700339F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85A34B1E7FA42700339F5E /* Build configuration list for PBXNativeTarget "CobaProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85A34C1E7FA42700339F5E /* Debug */,
+				BF85A34D1E7FA42700339F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85A34E1E7FA42700339F5E /* Build configuration list for PBXNativeTarget "CobaProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85A34F1E7FA42700339F5E /* Debug */,
+				BF85A3501E7FA42700339F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF85A3181E7FA42600339F5E /* Project object */;
+}
