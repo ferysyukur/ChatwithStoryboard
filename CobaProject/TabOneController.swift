@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuthUI
 
-class TabOneController: UIViewController {
+class TabOneController: UIViewController, UINavigationControllerDelegate {
     
     let imgProfile : UIImageView = {
         let img = UIImageView()
@@ -21,6 +23,8 @@ class TabOneController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Sign Out", style: .plain, target: self, action: #selector(handleSignOut))
 
         view.backgroundColor = .white
         view.addSubview(imgProfile)
@@ -37,15 +41,13 @@ class TabOneController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func handleSignOut(){
+        do {
+            try FIRAuth.auth()?.signOut()
+            dismiss(animated: true, completion: nil)
+        } catch  {
+            print("Error Sign Out")
+        }
     }
-    */
 
 }

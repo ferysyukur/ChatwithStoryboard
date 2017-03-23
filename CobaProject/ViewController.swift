@@ -7,21 +7,29 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseGoogleAuthUI
 
 class ViewController: UITabBarController, UITabBarControllerDelegate {
     
-    @IBOutlet weak var SignOutButton: UIBarButtonItem!
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Sign Out", style: .plain, target: self, action: #selector(handleSignOut))
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func handleSignOut(){
+        do {
+            try FIRAuth.auth()?.signOut()
+            dismiss(animated: true, completion: nil)
+        } catch  {
+            print("Error Sign Out")
+        }
     }
 
 

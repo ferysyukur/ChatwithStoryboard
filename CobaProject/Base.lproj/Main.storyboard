@@ -25,12 +25,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEb-C8-0Pm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2156" y="1551"/>
+            <point key="canvasLocation" x="-2160" y="661"/>
         </scene>
-        <!--Sign In Controller-->
+        <!--Chat-->
         <scene sceneID="gpa-rn-Ru4">
             <objects>
-                <viewController id="x2Q-FQ-zVE" customClass="SignInController" customModule="CobaProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Chat" id="x2Q-FQ-zVE" customClass="SignInController" customModule="CobaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zb5-PN-76O"/>
                         <viewControllerLayoutGuide type="bottom" id="7JC-ea-Fm9"/>
@@ -58,7 +58,7 @@
                             <constraint firstItem="75B-oe-a0C" firstAttribute="leading" secondItem="5EK-nx-Py4" secondAttribute="leadingMargin" constant="121" id="zAc-TH-mPV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Z4D-tf-ny5"/>
+                    <navigationItem key="navigationItem" title="Chat Storyboard" id="Z4D-tf-ny5"/>
                     <connections>
                         <outlet property="SignInButton" destination="75B-oe-a0C" id="dFn-NR-ers"/>
                     </connections>
@@ -67,7 +67,7 @@
             </objects>
             <point key="canvasLocation" x="-1337" y="662"/>
         </scene>
-        <!--Item-->
+        <!--Personal-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="TabThreeController" customModule="CobaProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -81,13 +81,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="jHk-ru-1dD"/>
-                    <navigationItem key="navigationItem" id="x6X-Fi-Bdb"/>
+                    <navigationItem key="navigationItem" title="Personal" id="x6X-Fi-Bdb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="311" y="1256"/>
+            <point key="canvasLocation" x="1350" y="1095"/>
         </scene>
-        <!--Item 2-->
+        <!--Chats-->
         <scene sceneID="0cU-Vw-mgj">
             <objects>
                 <viewController id="j2t-iz-wV8" customClass="TabTwoController" customModule="CobaProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -101,17 +101,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="Giv-fY-Ikt"/>
-                    <navigationItem key="navigationItem" id="y5f-cH-V5f"/>
+                    <navigationItem key="navigationItem" title="Chats" id="y5f-cH-V5f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TUy-ZM-ahL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1234" y="519"/>
+            <point key="canvasLocation" x="1234" y="115"/>
         </scene>
-        <!--Item-->
+        <!--Chats Groups-->
         <scene sceneID="iKH-RN-b7t">
             <objects>
                 <navigationController id="lQ5-5a-QMw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="9zY-y0-zTO"/>
+                    <tabBarItem key="tabBarItem" title="Chats Groups" image="groupImage" id="9zY-y0-zTO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ub6-TW-AaX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -122,9 +122,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YFI-Yj-JMY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="375" y="-400"/>
+            <point key="canvasLocation" x="309" y="-1026"/>
         </scene>
-        <!--Item 1-->
+        <!--Chat Groups-->
         <scene sceneID="qcx-qa-fca">
             <objects>
                 <viewController id="htJ-uH-xit" customClass="TabOneController" customModule="CobaProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -138,32 +138,23 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="uwk-7L-dFF"/>
-                    <navigationItem key="navigationItem" id="gmL-2d-WU2"/>
+                    <navigationItem key="navigationItem" title="Chat Groups" id="gmL-2d-WU2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYu-WA-CM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1118" y="-400"/>
+            <point key="canvasLocation" x="1234" y="-1027"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="d99-nh-QA7">
             <objects>
-                <tabBarController storyboardIdentifier="tabbar" id="wlU-Bv-Xh6" customClass="ViewController" customModule="CobaProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="t3Z-sO-fWP">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="Syk-Y1-L1N">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T0C-Gc-xcB">
-                                <rect key="frame" x="16" y="7" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sign Out"/>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                <tabBarController storyboardIdentifier="tabbar" id="wlU-Bv-Xh6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="t3Z-sO-fWP"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="YAt-tn-jJL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <outlet property="SignOutButton" destination="Syk-Y1-L1N" id="ixK-lb-2c9"/>
                         <segue destination="lQ5-5a-QMw" kind="relationship" relationship="viewControllers" id="Cu7-4j-xez"/>
                         <segue destination="HFw-uS-dY9" kind="relationship" relationship="viewControllers" id="11A-LO-waQ"/>
                         <segue destination="ay5-gn-JQP" kind="relationship" relationship="viewControllers" id="CgJ-fw-DAw"/>
@@ -173,11 +164,11 @@
             </objects>
             <point key="canvasLocation" x="-473" y="116"/>
         </scene>
-        <!--Item-->
+        <!--Personal-->
         <scene sceneID="uUJ-Vh-bcY">
             <objects>
                 <navigationController id="ay5-gn-JQP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="UQc-vD-CTg"/>
+                    <tabBarItem key="tabBarItem" title="Personal" image="userImage" id="UQc-vD-CTg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="48A-gp-Np3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -188,13 +179,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vba-If-jtx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-474" y="862"/>
+            <point key="canvasLocation" x="441" y="1096"/>
         </scene>
-        <!--Item-->
+        <!--Chats-->
         <scene sceneID="8tx-UG-LYp">
             <objects>
                 <navigationController id="HFw-uS-dY9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="dug-Ax-g0l"/>
+                    <tabBarItem key="tabBarItem" title="Chats" image="chats" id="dug-Ax-g0l"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="i3n-XR-hAA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -205,7 +196,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nOa-7o-2SR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="450" y="396"/>
+            <point key="canvasLocation" x="441" y="115"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chats" width="27" height="27"/>
+        <image name="groupImage" width="27" height="27"/>
+        <image name="userImage" width="27" height="27"/>
+    </resources>
 </document>
