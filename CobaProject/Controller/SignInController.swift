@@ -22,8 +22,7 @@ class SignInController: UIViewController, UINavigationControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Login", style: .plain, target: self, action: #selector(handleLogout))
+        
         SignInButton.addTarget(self, action: #selector(handleLogout), for: .touchUpInside)
         if FIRAuth.auth()?.currentUser?.uid == nil{
             checkSession()
